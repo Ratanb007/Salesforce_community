@@ -1,0 +1,2732 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>ContactUs</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ContactUs</shortDescription>
+        <value>ContactUs</value>
+    </labels>
+    <labels>
+        <fullName>Cancel</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Cherwell</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cherwell</shortDescription>
+        <value>Cherwell</value>
+    </labels>
+    <labels>
+        <fullName>ClassicONLY</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ClassicONLY</shortDescription>
+        <value>Classic ONLY</value>
+    </labels>
+    <labels>
+        <fullName>ContactSupport</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ContactSupport</shortDescription>
+        <value>Contact Support</value>
+    </labels>
+    <labels>
+        <fullName>CreatedDate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CreatedDate</shortDescription>
+        <value>Created Date</value>
+    </labels>
+    <labels>
+        <fullName>Customer_Care</fullName>
+        <categories>Case</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer Care</shortDescription>
+        <value>Customer Care</value>
+    </labels>
+    <labels>
+        <fullName>Discard</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Discard</shortDescription>
+        <value>Discard changes</value>
+    </labels>
+    <labels>
+        <fullName>EContactUs</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EContactUs</shortDescription>
+        <value>ContactUs</value>
+    </labels>
+    <labels>
+        <fullName>EMPTY_FILE</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CSV file is empty.</shortDescription>
+        <value>CSV file is empty.</value>
+    </labels>
+    <labels>
+        <fullName>ERROR_JSON_BAD_FORMAT</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>The provided Json String was badly formatted.</shortDescription>
+        <value>The provided Json String was badly formatted.</value>
+    </labels>
+    <labels>
+        <fullName>ERROR_JSON_EMPTY</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No field values were found in the Json String.</shortDescription>
+        <value>No field values were found in the Json String.</value>
+    </labels>
+    <labels>
+        <fullName>ERROR_OP_FAILED</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Operation failed, please check messages!</shortDescription>
+        <value>Operation failed, please check messages!</value>
+    </labels>
+    <labels>
+        <fullName>ERROR_REQUEST_FAILED_NO_ERROR</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Request failed with no specified error.</shortDescription>
+        <value>Request failed with no specified error.</value>
+    </labels>
+    <labels>
+        <fullName>ERROR_UNAUTHORIZED_ENDPOINT</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Unauthorized endpoint, please check Setup</shortDescription>
+        <value>Unauthorized endpoint, please check Setup</value>
+    </labels>
+    <labels>
+        <fullName>Eapi</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Eapi</shortDescription>
+        <value>API test</value>
+    </labels>
+    <labels>
+        <fullName>Eapitest</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Eapitest</shortDescription>
+        <value>AP1 test</value>
+    </labels>
+    <labels>
+        <fullName>Econnectedservices</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Econnectedservices</shortDescription>
+        <value>Connected Services</value>
+    </labels>
+    <labels>
+        <fullName>EdealerLocator</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EdealerLocator</shortDescription>
+        <value>Dealer Locator</value>
+    </labels>
+    <labels>
+        <fullName>Efaq</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Efaq</shortDescription>
+        <value>FAQs</value>
+    </labels>
+    <labels>
+        <fullName>Efinancialservices</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Efinancialservices</shortDescription>
+        <value>Financial Services</value>
+    </labels>
+    <labels>
+        <fullName>Ehow</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ehow</shortDescription>
+        <value>How Can We Help?</value>
+    </labels>
+    <labels>
+        <fullName>Emostpopular</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Emostpopular</shortDescription>
+        <value>Most Popular</value>
+    </labels>
+    <labels>
+        <fullName>Epara</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Epara</shortDescription>
+        <value>Currently, no article is associated with this section</value>
+    </labels>
+    <labels>
+        <fullName>Eparts</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Eparts</shortDescription>
+        <value>Parts and Accessories</value>
+    </labels>
+    <labels>
+        <fullName>Eprefered</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Eprefered</shortDescription>
+        <value>Prefered Language</value>
+    </labels>
+    <labels>
+        <fullName>EquipmentListingLinkText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CC-622 Equipment listing link</shortDescription>
+        <value>Please provide your 17 character VIN to view and print your vehicle equipment sheet, which contains the standard and optional equipment when the vehicle was built.
+*Vehicles built before 1998 are not eligible for this functionality.</value>
+    </labels>
+    <labels>
+        <fullName>Erecalls</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Erecalls</shortDescription>
+        <value>Recalls</value>
+    </labels>
+    <labels>
+        <fullName>Eroadsideassistance</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Eroadsideassistance</shortDescription>
+        <value>Roadside Assistance</value>
+    </labels>
+    <labels>
+        <fullName>Esearch</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esearch</shortDescription>
+        <value>Search</value>
+    </labels>
+    <labels>
+        <fullName>Etrending</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Etrending</shortDescription>
+        <value>Trending Articles</value>
+    </labels>
+    <labels>
+        <fullName>EwagoneerConnect</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EwagoneerConnect</shortDescription>
+        <value>Wagoneer Connect</value>
+    </labels>
+    <labels>
+        <fullName>Ewed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ewed</shortDescription>
+        <value>Wednesday,the first</value>
+    </labels>
+    <labels>
+        <fullName>ExpiryDate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ExpiryDate</shortDescription>
+        <value>Expiry Date</value>
+    </labels>
+    <labels>
+        <fullName>FILE_MISSING</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Please provide a comma separated file.</shortDescription>
+        <value>Please provide a comma separated file.</value>
+    </labels>
+    <labels>
+        <fullName>GDSP_MTLS_Cert</fullName>
+        <categories>Cert</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GDSP_MTLS_Cert</shortDescription>
+        <value>GDSP_MTLS_INTG_Cert</value>
+    </labels>
+    <labels>
+        <fullName>GSDPCommunityCustomerContact</fullName>
+        <categories>GSDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDPCommunityCustomerContact</shortDescription>
+        <value>customer</value>
+    </labels>
+    <labels>
+        <fullName>GSDPCommunityProfile</fullName>
+        <categories>GSDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDPCommunityProfile</shortDescription>
+        <value>ContactUs Community User</value>
+    </labels>
+    <labels>
+        <fullName>GSDPRecordtype</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDPRecordtype</shortDescription>
+        <value>0123Z000000nAKZ</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_APP</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP APP</shortDescription>
+        <value>Customer Connect</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_Agent_Profile_Id</fullName>
+        <categories>ID</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>To fetch the GSDP Agent Profile ID</shortDescription>
+        <value>00e3Z00000130H6QAI</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_AssignToSpecialist_Btn_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP AssignToSpecialist Btn Label</shortDescription>
+        <value>Escalate to NOC</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_CTI_VQ</fullName>
+        <categories>CTI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP_CTI_VQ</shortDescription>
+        <value>cti_VQ</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_Case_Closed_Status</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP Case Closed Status</shortDescription>
+        <value>Closed</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_Chat_Button_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GDSP chat button Id</shortDescription>
+        <value>5733Z000000Tbq9</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_ConnectedServices</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP_ConnectedServices</shortDescription>
+        <value>Connected Services</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_Connid</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP Connid</shortDescription>
+        <value>cti_Connid</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_CustomerSource</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP CustomerSource</shortDescription>
+        <value>cti_CustomerSource</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_DriveIT_Incident_Creation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP DriveIT Incident Creation</shortDescription>
+        <value>The Incident has been successfully created in DriveIT.</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_DriveIT_Suspension_Reason</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP DriveIT Suspension Reason</shortDescription>
+        <value>Known Issue with no immediate resolution</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_DriveIt_Error_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP DriveIt Error Message</shortDescription>
+        <value>DriveIT ticket creation was not successful. Please try again.</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_DriveIt_Incident_Already_Exist</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP DriveIt Incident Already Exist</shortDescription>
+        <value>There is already a ticket open for this case</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_Gigya_Account_Include_Fields</fullName>
+        <categories>GSDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP Gigya Account Include Fields</shortDescription>
+        <value>identities-active,identities-all,identities-global, loginIDs, emails, profile, data, password, lastLoginLocation, regSource, irank, rba, subscriptions, userInfo,isLockedOut,isActive,active,liteAccount</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_Gigya_Accounts_extraProfileFields</fullName>
+        <categories>GSDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP Gigya Accounts extraProfileFields</shortDescription>
+        <value>languages,address,phones, education, honors, publications, patents, certifications, professionalHeadline, bio, industry, specialties, work, skills, religion, politicalView, interestedIn, relationshipStatus, hometown, favorites, followersCount, followingCount, username, locale, verified, timezone, likes, samlData</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_Intent</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP Intent</shortDescription>
+        <value>cti_Intent</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_Level_1_Sales_Agent</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP Level 1 Sales Agent</shortDescription>
+        <value>GSDP_Level_1_Sales_Agent</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_Level_1_Sales_Queue</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP Level 1 Sales Queue</shortDescription>
+        <value>GSDP_Level_1_Sales_Queue</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_Level_1_Service_Agent</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP Level 1 Service Agent</shortDescription>
+        <value>GSDP_Level_1_Service_Agent</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_Level_1_Service_Queue</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP Level 1  Service Queue</shortDescription>
+        <value>GSDP_Level_1_Service_Queue</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_Level_1_Tech_Support_Queue</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP Level 1 Tech Support Queue</shortDescription>
+        <value>GSDP_Level_1_Tech_Support_Queue</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_Level_1_Technical_Agent</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP Level 1 Technical Agent</shortDescription>
+        <value>GSDP_Level_1_Technical_Agent</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_Level_2_Tech_Support_Queue</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP Level 2 Tech Support Queue</shortDescription>
+        <value>GSDP_Level_2_Tech_Support_Queue</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_Level_2_Technical_Agent</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP Level 2 Technical Agent</shortDescription>
+        <value>GSDP_Level_2_Technical_Agent</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_MyCommunity</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP_MyCommunityName</shortDescription>
+        <value>gsdpv3</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_MyCommunityRam</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP_MyCommunityRam</shortDescription>
+        <value>ContactUsRam</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_Number_Of_Days_To_Reopen_Case</fullName>
+        <categories>103</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP Number of Days To Reopen Case</shortDescription>
+        <value>5</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_Number_of_Days</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP Number of Days</shortDescription>
+        <value>5</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_OwnerServiceNoData</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP_OwnerServiceNoData</shortDescription>
+        <value>No Subscription Account or Vehicle can be Found, please try different search criteria.</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_OwnerServiceUnavailable</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GB-191 - When the owner service is not available.</shortDescription>
+        <value>Owner service not available!</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_Owner_change_to_L3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP Owner change to L3</shortDescription>
+        <value>The case ownership is successfully changed to the &quot;Level 3 Tech Support&quot; Queue.</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_PINRequiedFlag</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP PINRequiedFlag</shortDescription>
+        <value>cti_PINRequiedFlag</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_PINStatus</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP PINStatus</shortDescription>
+        <value>cti_PINStatus</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_PINToken</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP PINToken</shortDescription>
+        <value>cti_PINToken</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_PROFILE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP PROFILE</shortDescription>
+        <value>GSDP Agent</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_Source</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP Source</shortDescription>
+        <value>cti_Source</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_SubStatus</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP SubStatus</shortDescription>
+        <value>cti_SubStatus</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_Supervisor_Level2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP Supervisor Level2</shortDescription>
+        <value>GSDP_Supervisor_Level2</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_Transfer_Error_For_L2_Tech_Agent</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP Transfer Error For L2 Tech Agent</shortDescription>
+        <value>You are not able to transfer to L2 Tech. Please transfer to L1 Tech</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_Transfer_Error_For_PermissionSet</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP Transfer Error For PermissionSet</shortDescription>
+        <value>You are not allowed to transfer a case to an L1 Sales agent / L1 Service agent / L1 Tech agent</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_Transfer_Error_for_Queue</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP Transfer Error for Queue</shortDescription>
+        <value>Transfer between permission set and Queue is not permitted. Please contact System Administrator.</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_UserCreationNotificationEmail</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP_UserCreationNotificationEmail</shortDescription>
+        <value>cacsysrq@fcagroup.com</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_UserID</fullName>
+        <categories>CTI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP_UserID</shortDescription>
+        <value>cti_UserId</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_Utternance</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP Utternance</shortDescription>
+        <value>cti_Utterance</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_VIN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP VIN</shortDescription>
+        <value>Please select VIN</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_ValidationError</fullName>
+        <categories>GSDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP_ValidationError</shortDescription>
+        <value>You don&apos;t have the Permission to edit the record as you are not the Owner.</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_Validation_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP Validation Message</shortDescription>
+        <value>Please provide &apos;Contact Reason Area&apos; and &apos;Contact Reason Type, since these fields are mandatory</value>
+    </labels>
+    <labels>
+        <fullName>GSDP_user_default_email_id</fullName>
+        <categories>Email id</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GSDP user default email id</shortDescription>
+        <value>customercare@connected.fcabrands.com</value>
+    </labels>
+    <labels>
+        <fullName>Getting_Started_Header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Getting Started Header</shortDescription>
+        <value>Getting Started</value>
+    </labels>
+    <labels>
+        <fullName>Getting_Started_Message</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Getting Started Message</shortDescription>
+        <value>Please select an Apex class from the list on the left. You can then assign Profiles and Permission Sets. Classes marked with a red flag are unassigned, meaning that those classes will be unavailable to Lightning Web Components and Aura.&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;b&gt;&lt;i&gt;* The tool will not reveal Apex classes inside managed packages.&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;</value>
+    </labels>
+    <labels>
+        <fullName>HBypassSMEApproval</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HBypassSMEApproval</shortDescription>
+        <value>बाईपास एसएमई अनुमोदन</value>
+    </labels>
+    <labels>
+        <fullName>HBypassStakeholderApproval</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HBypassStakeholderApproval</shortDescription>
+        <value>बायपास हितधारक अनुमोदन</value>
+    </labels>
+    <labels>
+        <fullName>HReasonforSMEApprovalBypass</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HReasonforSMEApprovalBypass</shortDescription>
+        <value>एसएमई अनुमोदन बाईपास का कारण</value>
+    </labels>
+    <labels>
+        <fullName>HSMEApprover</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HSMEApprover</shortDescription>
+        <value>एसएमई अनुमोदक</value>
+    </labels>
+    <labels>
+        <fullName>HStakeholderApprover</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HStakeholderApprover</shortDescription>
+        <value>हितधारक अनुमोदनकर्ता</value>
+    </labels>
+    <labels>
+        <fullName>Hap</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Hap</shortDescription>
+        <value>एपी1 परीक्षण</value>
+    </labels>
+    <labels>
+        <fullName>Hapi</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Hapi</shortDescription>
+        <value>एपीआई परीक्षण</value>
+    </labels>
+    <labels>
+        <fullName>Hconnectedservices</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Hconnectedservices</shortDescription>
+        <value>कनेक्टेड सेवाएं</value>
+    </labels>
+    <labels>
+        <fullName>Hcontact</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Hcontact</shortDescription>
+        <value>संपर्क करें</value>
+    </labels>
+    <labels>
+        <fullName>Hfaq</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Hfaq</shortDescription>
+        <value>पूछे जाने वाले प्रश्न</value>
+    </labels>
+    <labels>
+        <fullName>Hfinancialservices</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Hfinancialservices</shortDescription>
+        <value>वित्तीय सेवाएं</value>
+    </labels>
+    <labels>
+        <fullName>Hgeneralinformation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Hgeneralinformation</shortDescription>
+        <value>सामान्य जानकारी</value>
+    </labels>
+    <labels>
+        <fullName>Hhow</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Hhow</shortDescription>
+        <value>हम आपकी सहायता किस तरह से कर सकते है?</value>
+    </labels>
+    <labels>
+        <fullName>Hlocator</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Hlocator</shortDescription>
+        <value>व्यापारियों का स्थान निर्धारण करने वाला</value>
+    </labels>
+    <labels>
+        <fullName>Hmostpopular</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Hmostpopular</shortDescription>
+        <value>सबसे लोकप्रिय</value>
+    </labels>
+    <labels>
+        <fullName>Hpara</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Hpara</shortDescription>
+        <value>वर्तमान में, इस अनुभाग से कोई लेख संबद्ध नहीं है</value>
+    </labels>
+    <labels>
+        <fullName>Hpart</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Hpart</shortDescription>
+        <value>भागों और सहायक उपकरण</value>
+    </labels>
+    <labels>
+        <fullName>Hprefered</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Hprefered</shortDescription>
+        <value>पसंदीदा भाषा</value>
+    </labels>
+    <labels>
+        <fullName>Hrecall</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Hrecall</shortDescription>
+        <value>की वापसी</value>
+    </labels>
+    <labels>
+        <fullName>Hroad</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Hroad</shortDescription>
+        <value>सड़क के किनारे सहायता</value>
+    </labels>
+    <labels>
+        <fullName>Hsearch</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Hsearch</shortDescription>
+        <value>सर्च</value>
+    </labels>
+    <labels>
+        <fullName>Hsummary</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Hsummary</shortDescription>
+        <value>सारांश</value>
+    </labels>
+    <labels>
+        <fullName>Htrending</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Htrending</shortDescription>
+        <value>रुझान वाले लेख</value>
+    </labels>
+    <labels>
+        <fullName>HwagoneerConnect</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HwagoneerConnect</shortDescription>
+        <value>वैगनीयर कनेक्ट</value>
+    </labels>
+    <labels>
+        <fullName>Hwed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Hwed</shortDescription>
+        <value>बुधवार, पहला</value>
+    </labels>
+    <labels>
+        <fullName>IBMcontentManagerCharacterLimit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IBMcontentManagerCharacterLimit</shortDescription>
+        <value>45</value>
+    </labels>
+    <labels>
+        <fullName>IBMcontentManagerCharacterLimitErrorMsg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IBMcontentManagerCharacterLimitErrorMsg</shortDescription>
+        <value>File Name exceeded {0} characters. Please rename the file to a shorter name and try again.</value>
+    </labels>
+    <labels>
+        <fullName>INTEGRATION_USERID</fullName>
+        <categories>GB-102</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>INTEGRATION_USERID</shortDescription>
+        <value>005f100000J1qScAAJ</value>
+    </labels>
+    <labels>
+        <fullName>INVALID_FILE_ROW_SIZE_DOESNT_MATCH</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>The number of field values does not match the number of header fields on line</shortDescription>
+        <value>The number of field values does not match the number of header fields on line</value>
+    </labels>
+    <labels>
+        <fullName>IntegrationUserId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>User Name of the Integration User. This value is specific to the env</shortDescription>
+        <value>integration.user@external.fcagroup.com</value>
+    </labels>
+    <labels>
+        <fullName>InternalComments</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>InternalComments</shortDescription>
+        <value>Internal Comments</value>
+    </labels>
+    <labels>
+        <fullName>Invisible_Class_Flag</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Invisible Class Flag</shortDescription>
+        <value>Class not visible to LWC/Aura</value>
+    </labels>
+    <labels>
+        <fullName>InvoiceMockResponse</fullName>
+        <categories>mockresponse</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>InvoiceMockResponse</shortDescription>
+        <value>{ &quot;invoices&quot;: [ { &quot;amount&quot;: 8.7, &quot;balance&quot;: 0, &quot;invoiceNumber&quot;: &quot;INV00000142&quot;, &quot;dueDate&quot;: &quot;2020-04-03&quot;, &quot;id&quot;: &quot;2c92c0856a0e98cb016a29ba13fe7eb2&quot;, &quot;invoiceDate&quot;: &quot;2020-04-03&quot;, &quot;invoiceTargetDate&quot;: &quot;2020-04-03&quot;, &quot;creditBalanceAdjustmentAmount&quot;: 0, &quot;status&quot;: &quot;Posted&quot;, &quot;reversed&quot;: true, &quot;body&quot;: &quot;/v1/files/2c92c08c6a073477016a29ba1c805798&quot;, &quot;einvoice_status__c&quot;: &quot;not processed&quot;, &quot;SDI_Status__c&quot;: null, &quot;subscriptions&quot;: [ { &quot;vin&quot;: &quot;SUBSCRIPTIONVIN02&quot;, &quot;Quantity&quot;: 1, &quot;Name&quot;: &quot;A-S00000005&quot;, &quot;Id&quot;: &quot;2c92c0f9511f56b2015126814ad532dd&quot;, &quot;SubscriptionStartDate&quot;: &quot;2015-11-20&quot;, &quot;TermEndDate&quot;: &quot;2015-11-30&quot;, &quot;ProductName&quot;: &quot;My Remote Renewal&quot;, &quot;ProductDescription&quot;: &quot;&quot;, &quot;status&quot;: &quot;Active&quot; } ] } ], &quot;nextPage&quot;: &quot;string&quot;, &quot;prevPage&quot;: &quot;string&quot;,&quot;isMockData&quot;:true }</value>
+    </labels>
+    <labels>
+        <fullName>JeepWave_Canada_English</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>JeepWave Canada English</shortDescription>
+        <value>Jeep Wave Customer Care Canada</value>
+    </labels>
+    <labels>
+        <fullName>JeepWave_Canada_French</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>JeepWave Canada French</shortDescription>
+        <value>salut jeep Canada</value>
+    </labels>
+    <labels>
+        <fullName>Keywords</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Keywords</shortDescription>
+        <value>Keywords</value>
+    </labels>
+    <labels>
+        <fullName>Lang_en_ca</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CC_Lang_en_ca</shortDescription>
+        <value>en_ca</value>
+    </labels>
+    <labels>
+        <fullName>Lang_fr_ca</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Lang_fr_ca</shortDescription>
+        <value>fr_ca</value>
+    </labels>
+    <labels>
+        <fullName>Language</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Language</shortDescription>
+        <value>Language</value>
+    </labels>
+    <labels>
+        <fullName>MSG_CHECK_API_NAMES</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Please check the Api names!</shortDescription>
+        <value>Please check the Api names!</value>
+    </labels>
+    <labels>
+        <fullName>MSG_CS_MDT_EXISTS</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Make sure Custom Setting and Custom Metadata Types exists in the org!</shortDescription>
+        <value>Make sure Custom Setting and Custom Metadata Types exists in the org!</value>
+    </labels>
+    <labels>
+        <fullName>MSG_CS_MDT_FIELD_NAME_FORMAT</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Please check the format, Custom Setting.field and Custom Metadata Types.field</shortDescription>
+        <value>Please check the format, Custom Setting.field and Custom Metadata Types.field</value>
+    </labels>
+    <labels>
+        <fullName>MSG_CS_MDT_FIELD_NAME_REQ</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom Setting Name/Field Name and CMT/Field Name names are required!</shortDescription>
+        <value>Custom Setting Name/Field Name and CMT/Field Name names are required!</value>
+    </labels>
+    <labels>
+        <fullName>MSG_CS_MDT_MAPPING_REQ</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom Setting Name, Custom Metadata Types and Json Mapping names are required!</shortDescription>
+        <value>Custom Setting Name, Custom Metadata Types and Json Mapping names are required!</value>
+    </labels>
+    <labels>
+        <fullName>MSG_CS_MDT_REQ</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom Setting Api Name and Custom Metadata Types Api names are required!</shortDescription>
+        <value>Custom Setting Api Name and Custom Metadata Types Api names are required!</value>
+    </labels>
+    <labels>
+        <fullName>MSG_CUSTOM_SETTINGS_EXISTS</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Make sure Custom Setting exists in the org!</shortDescription>
+        <value>Make sure Custom Setting exists in the org!</value>
+    </labels>
+    <labels>
+        <fullName>MSG_JSON_API_NAMES</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Please check the Api names in Json!</shortDescription>
+        <value>Please check the Api names in Json!</value>
+    </labels>
+    <labels>
+        <fullName>MSG_JSON_FORMAT</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Please check the Json format!</shortDescription>
+        <value>Please check the Json format!</value>
+    </labels>
+    <labels>
+        <fullName>MSG_MDT_END</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom Metadata Types name should end with</shortDescription>
+        <value>Custom Metadata Types name should end with</value>
+    </labels>
+    <labels>
+        <fullName>MSG_MIGRATION_COMPLETED</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Migration Completed!</shortDescription>
+        <value>Migration Completed!</value>
+    </labels>
+    <labels>
+        <fullName>MSG_MIGRATION_IN_PROGRESS</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Migration In Progress, check status under Deploy -&gt; Deployment Status, Job Id:</shortDescription>
+        <value>Migration In Progress, check status under Deploy -&gt; Deployment Status, Job Id:</value>
+    </labels>
+    <labels>
+        <fullName>MSG_NOT_SUPPORTED</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Not Supported!!!</shortDescription>
+        <value>Not Supported!!!</value>
+    </labels>
+    <labels>
+        <fullName>N</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>N</shortDescription>
+        <value>CreatedBy.UserRole.Name</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_ALTASpecialHandling</fullName>
+        <categories>NAFTA, Queue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_ALTASpecialHandling</shortDescription>
+        <value>ALTA Special Handling</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_AdvisorSite</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA Advisor Site</shortDescription>
+        <value>Advisor can only have one site.</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_AlfaRomeoSpecialist</fullName>
+        <categories>NAFTA, Queue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_AlfaRomeoSpecialist</shortDescription>
+        <value>Alfa Romeo Specialist</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_AlfaRomeoSpecialistEnglish</fullName>
+        <categories>NAFTA, Queue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_AlfaRomeoSpecialistEnglish</shortDescription>
+        <value>Alfa Romeo Specialist - English</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_AlfaRomeoSpecialistFrench</fullName>
+        <categories>NAFTA, Queue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_AlfaRomeoSpecialistFrench</shortDescription>
+        <value>Alfa Romeo Specialist - French</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_AssigneToGroup</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_AssigneToGroup</shortDescription>
+        <value>Assign to Group:</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_CAN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Canada Abbreviation</shortDescription>
+        <value>CAN</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_CCRG</fullName>
+        <categories>NAFTA, Queue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_CCRG</shortDescription>
+        <value>CCRG</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_CDIReviewEmailResponseTaskDescription</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CDI Review Email Response Task Desc</shortDescription>
+        <value>Email Response has been received for CDI Request (Request Type - Government Official). If the response is positive please generate the CDI Number and update the CDI request record.</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_CDIReviewEmailResponseTaskSubject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CDI Review Email Response Task Sub</shortDescription>
+        <value>Review Email response for CDI Request</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_CDI_EmailAddress</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_CDI_EmailAddress</shortDescription>
+        <value>harikrishna.vr@external.fcagroup.com</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_Canada</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA Canada</shortDescription>
+        <value>Canada</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_CanadaCustomerAssistance</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Canada Customer Assistance</shortDescription>
+        <value>Canada Customer Assistance</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_CaseAssignmentToSpecialist_Case_query</fullName>
+        <categories>Query, Apex</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_CaseAssignmentToSpecialist Case query</shortDescription>
+        <value>Id, AccountId, Asset.CC_BodyModel__c, Asset.CC_Brand__c, Asset.CC_EngineNumber__c, Asset.cc_FamilyCode__c, Asset.CC_Premium__c, Asset.CC_VIN__c, Asset.Description, Asset.Name, AssetId, CaseNumber, CC_AnomalyDeclaredByCustomerReason1__c, CC_AnomalyDeclaredByCustomerReason2__c, CC_CaseDisposition__c, CC_CaseLanguage__c, CC_CaseSource__c, CC_ContactReasonLevel4__c, CC_ContactReasonLevel5__c, CC_EscalatedGroup__c, CC_IsFleetvehicle__c, CC_Market__c, CC_ServicingDealer__c, CC_ServicingDealer__r.Dealer_Code__c, CC_ServicingDealer__r.Nafta_Specialist__c, CC_ServicingDealer__r.Nafta_Specialist__r.Name, CC_SiteName__c, CC_SupervisorInQueue__c, CC_TREAD__c, CC_VIN__c, contact.Account_Number__c, Contact.cc_DummyContact__c, Contact.CC_PremiumCustomer__c, Customer_Email_address__c, Description, GSDP_Escalated_To_Level_3_Tech_Support__c, Incident_Number__c, NAFTA_LemonLaw__c, NAFTA_PremiumCustomer__c, OwnerId, ParentId, RecordTypeId, SourceId, Status, Subject, Subscription_Account__c, Type</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_ChatamSpecialHandling</fullName>
+        <categories>NAFTA, Queue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_ChatamSpecialHandling</shortDescription>
+        <value>Chatham Special Handling</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_CloneErrorRental</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CC_CloneErrorRental</shortDescription>
+        <value>Clone cannot be performed on Rental Car Request for Status = Submitted.</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_Complete</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label to indicate status is complete</shortDescription>
+        <value>COMPLETE</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_ContactUsCanadaLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA ContactUsCanadaLabel</shortDescription>
+        <value>CANADA</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_ContactUsChatwithusLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA ContactUsChatwithusLabel</shortDescription>
+        <value>Chat with us</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_ContactUsEmailUsLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA ContactUsEmailUsLabel</shortDescription>
+        <value>Email Us</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_ContactUsHomeLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA ContactUsHomeLabel</shortDescription>
+        <value>HOME</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_ContactUsLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA ContactUsLabel</shortDescription>
+        <value>Contact Us</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_ContactUsLocatDealerLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA ContactUsLocatDealerLabel</shortDescription>
+        <value>Locate Dealer</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_ContactUsMexicoLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA ContactUsMexicoLabel</shortDescription>
+        <value>MEXICO</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_ContactUsPhoneLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA ContactUsPhoneLabel</shortDescription>
+        <value>877-426-5337</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_ContactUsbyMail</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact Us by Mail:</shortDescription>
+        <value>Contact Us by Mail:</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_ContactUsbyTelephone</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact Us by Telephone:</shortDescription>
+        <value>Contact Us by Telephone:</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_CustomCDIEmailListener</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom CDI Email Listener</shortDescription>
+        <value>UScustomercareuat@test.fcagroup.com</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_CustomSearchNoContactFoundMessage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomSearchNoContactFoundMessage</shortDescription>
+        <value>There are no other contacts for this vehicles.</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_CustomSearchNoVehicleFoundCreateCase</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CC-3748 Message Displayed for case creation with user provided vin</shortDescription>
+        <value>No such vehicle found from vehicle service!, Continue Case creation by entering “Customer Provided VIN”</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_CustomSearchNoVehicleFoundMessage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>If there is no vehicle record retrieved from legacy then show this error</shortDescription>
+        <value>No vehicles found!</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_CustomSearchVehicleServiceNoVehicle</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CC-3748 Message Displayed when data is not found in the vehicle service</shortDescription>
+        <value>No such vehicle found from vehicle service!</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_Custom_Search_Zip_Field_Message_Canada</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error message for Zip code</shortDescription>
+        <value>Canada postal code to be 6 digits alpha-numeric only</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_Custom_Search_Zip_Field_Message_Mexico</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error message for Zip code</shortDescription>
+        <value>Mexico ZIP code to be 5 digits numbers only</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_Customer_Care_Case_record_type</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer Care Case record type</shortDescription>
+        <value>Customer Care</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_DMNotesLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_DMNotesLabel</shortDescription>
+        <value>DM NOTES</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_DisputeResolution</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_DisputeResolution</shortDescription>
+        <value>Dispute Resolution</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_ECSSpecialist</fullName>
+        <categories>NAFTA, Queue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_ECSSpecialist</shortDescription>
+        <value>ECS Specialist</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_EquipmentListing</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CC-622 Equipment Listing</shortDescription>
+        <value>EQUIPMENT LISTING</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_EquipmentListingLinkText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CC-622 Equipment Listing Link</shortDescription>
+        <value>Please provide your 17 character VIN to view and print your vehicle equipment sheet, which contains the standard and optional equipment when the vehicle was built.</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_EquipmentListingNote</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CC-622 Equipment Iisting</shortDescription>
+        <value>*Vehicles built before 1998 are not eligible for this functionality.</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_EquipmentListingURL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CC-622 Equipment Listing</shortDescription>
+        <value>&apos;https://www.jeep.com/webselfservice/BuildSheetServlet?vin=&apos;</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_ErrorMessage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error message to be shown in lightning component</shortDescription>
+        <value>There seems to be an issue. Please try refreshing the page</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_ExtendedWarrantiesLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_ExtendedWarrantiesLabel</shortDescription>
+        <value>EXTENDED WARRANTIES</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_FAQHelpText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FAQHelpText</shortDescription>
+        <value>We have answers to the most&lt;br/&gt;frequently asked questions</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_FAQs</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FAQs</shortDescription>
+        <value>FAQs</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_FleetSpecialist</fullName>
+        <categories>NAFTA, Queue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_FleetSpecialist</shortDescription>
+        <value>Fleet Specialist</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_FortMyersSpecialHandling</fullName>
+        <categories>NAFTA, Queue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_FortMyersSpecialHandling</shortDescription>
+        <value>Fort Myers Special Handling</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_GenerateCDINoTaskDescription</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Generate CDI No Task Description</shortDescription>
+        <value>CDI Request is approved. Please generate the CDI Number and update in the request.</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_GenerateCDINoTaskSubject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Generate CDI No Task Subject</shortDescription>
+        <value>Generate CDI Request #</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_I2RTeam</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_I2RTeam</shortDescription>
+        <value>I2R Team</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_INT</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for the value INT</shortDescription>
+        <value>INT</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_ImportExportTeam</fullName>
+        <categories>NAFTA, Queue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_ImportExportTeam</shortDescription>
+        <value>Import/Export Team</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_Incomplete</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for incomplete status</shortDescription>
+        <value>INCOMPLETE</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_IncompleteStatus</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for incomplete recall status</shortDescription>
+        <value>INCOMPLETE,REPAIR PARTS AVAILABLE</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_InvalidVIN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CC-622 Equipment Listing</shortDescription>
+        <value>Invalid VIN</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_InvalidVINMessage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CC-622 Equipment Listing</shortDescription>
+        <value>Please enter a valid VIN</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_Knowledge_Addition_PermissionSet_Id</fullName>
+        <categories>Id</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>To fetch &quot;Knowledge Addition Permission&quot; Permissionset Id</shortDescription>
+        <value>0PSf1000000B9j5GAC</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_LemonLaw</fullName>
+        <categories>NAFTA, Queue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_LemonLaw</shortDescription>
+        <value>Lemon Law</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_MOPAR_VEHICLE_PROTECTION</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MOPAR VEHICLE PROTECTION</shortDescription>
+        <value>MOPAR VEHICLE PROTECTION</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_MVPCaseDescription</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_MVPCaseDescription</shortDescription>
+        <value>A MVP contract has been approved to this customer under goodwill. Please add the contract to vehicle and confirm.</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_MVPTaskSubject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_MVPTaskSubject</shortDescription>
+        <value>Add service contract to the vehicle and confirm</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_MVP_Contract_Add_Team_Group</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_MVP_Contract_Add_Team_Group</shortDescription>
+        <value>NAFTA_MVP_Contract_Add_Team</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_Manager_not_defined_error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Manager not defined error</shortDescription>
+        <value>Manager is not defined for you in the system. Please contact your Administrator.</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_Mexico</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA Mexico</shortDescription>
+        <value>Mexico</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_MexicoCustomerAssistance</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Mexico Customer Assistance</shortDescription>
+        <value>Mexico Customer Assistance</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_MoparVehicleProtectionHelpText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MoparVehicleProtectionHelpText</shortDescription>
+        <value>Vehicle protection backed by&lt;br/&gt;the Manufacturer</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_NewVehicleLaunch</fullName>
+        <categories>NAFTA, Queue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_NewVehicleLaunch</shortDescription>
+        <value>New Vehicle Launch</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_NoCaseFound</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>When there is no ECCI case for the VIN then show this error message</shortDescription>
+        <value>There are no cases for this vehicle.</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_NoManagerForUserSurveyCreate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Manager Assigned</shortDescription>
+        <value>You have no manager assigned. Please contact your System Administrator.</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_NoMoreSurveyBypassRequest</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>More than one Survey Bypass Requests are not allowed</shortDescription>
+        <value>Survey Bypass Request is already present for the case</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_NoOfDaysOfVehicleServicing</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_NoOfDaysOfVehicleServicing</shortDescription>
+        <value>90</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_NoRecalls</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>This is the label to be shown when there are no recalls fro</shortDescription>
+        <value>There are no recalls for this vehicle</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_NoVehicleInSalesforce</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Show this error when no vehicle is found in salesforce</shortDescription>
+        <value>The vehicle is not found in salesforce</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_No_Record_Found_Message_On_Phone_Search</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Record Found Message On Phone Search</shortDescription>
+        <value>No vehicles found.</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_OpenLegalCase</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_OpenLegalCase</shortDescription>
+        <value>NAFTAOpenLegalCaseIcon</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_OpenLegalCaseForContactError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OpenLegalCaseForContactError</shortDescription>
+        <value>A legal case(s) exists on this Contact, please check the case with case type = Warranty Litigation for more information.If you have reviewed them, please check &quot;I Have Reviewed All Open Legal Cases&quot; checkbox and save the case.</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_OpenLegalCaseForVehicleError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OpenLegalCaseForVehicleError</shortDescription>
+        <value>Open Legal case(s) exists for this Vehicle, please check the case with case type = Warranty Litigation for more information Num. If you have reviewed them, please set &quot; I Am Aware Of All Open Legal Cases&quot; checkbox and save the case.</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_OriginCertificateTeam</fullName>
+        <categories>NAFTA, Queue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_OriginCertificateTeam</shortDescription>
+        <value>Origin Certificate Team</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_OwnercenterSupport</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OwnercenterSupport</shortDescription>
+        <value>OWNER CENTER SUPPORT</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_PartOrderDetailTaskDescription</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_PartOrderDetailTaskDescription</shortDescription>
+        <value>Check for parts issue in the case and support in resolution</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_PartOrderDetailTaskSubject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_PartOrderDetailTaskSubject</shortDescription>
+        <value>Need support for resolving parts issue</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_Parts_POD_Chatham_Group</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_Parts_POD_Chatham_Group</shortDescription>
+        <value>Parts_POD_Chatham</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_Parts_POD_Farmington_Group</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_Parts_POD_Farmington_Group</shortDescription>
+        <value>Parts_POD_Farmington</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_Parts_POD_Fort_Myers_Group</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_Parts_POD_Fort_Myers_Group</shortDescription>
+        <value>Parts_POD_Fort_Myers</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_PremiumSpecialist</fullName>
+        <categories>NAFTA, Queue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_PremiumSpecialist</shortDescription>
+        <value>Premium Specialist</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_PromasterSpecialist</fullName>
+        <categories>NAFTA, Queue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_PromasterSpecialist</shortDescription>
+        <value>Promaster Specialist</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_READTIMEOUTERROR</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>READ_TIMEOUT_ERROR</shortDescription>
+        <value>Read timed out</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_RECALL_INFORMATION</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RECALL INFORMATION</shortDescription>
+        <value>RECALL INFORMATION</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_ROADSIDE_ASSISTANCE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ROADSIDE ASSISTANCE</shortDescription>
+        <value>ROADSIDE ASSISTANCE</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_RRTs</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_RRTs</shortDescription>
+        <value>RRTs</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_RecallEscalation</fullName>
+        <categories>NAFTA, Queue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_RecallEscalation</shortDescription>
+        <value>Recall Escalation</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_RecallInformationHelpText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RecallInformationHelpText</shortDescription>
+        <value>We are committed to your Safety</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_RecallLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_RecallLabel</shortDescription>
+        <value>VEHICLE RECALLS</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_RestrictionsLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_RestrictionsLabel</shortDescription>
+        <value>VEHICLE RESTRICTION</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_RoadSideAssistanceHelpText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RoadSideAssistanceHelpText</shortDescription>
+        <value>Service is available 24/7&lt;br/&gt;1-1800-521-2779</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_SalesCodeLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_SalesCodeLabel</shortDescription>
+        <value>SALES CODES</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_SameVehicleSearch</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ENH-115 : Do not allow to search the same VIN</shortDescription>
+        <value>VIN you have selected already exists in Case. Please select a different VIN.</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_SearchParamPhone</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search Param Phone</shortDescription>
+        <value>Phone</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_SearchParamVin</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search Param VIN</shortDescription>
+        <value>VIN</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_SelectOneAssignedTo</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error on selecting both assigned To in Task</shortDescription>
+        <value>Select only one &apos;Assigned to&apos;- User or Group</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_ServiceContractsLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_ServiceContractsLabel</shortDescription>
+        <value>SERVICE CONTRACTS</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_ServiceUnavailable</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error message to be shown when the vehicle service is down</shortDescription>
+        <value>Vehicle Service is down. Please try again later</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_SpanishSpecialist</fullName>
+        <categories>NAFTA, Queue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_SpanishSpecialist</shortDescription>
+        <value>Spanish Specialist</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_SpecialDealerCodes</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Special Dealer Codes</shortDescription>
+        <value>62457 25601</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_SpecialInvestigationTeam</fullName>
+        <categories>Queue, NAFTA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_SpecialInvestigationTeam</shortDescription>
+        <value>NAFTA_SpecialInvestigationTeam</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_SurveyByPassErrorForMexico</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Mexico User not allowed to raise a Survey Bypass Request</shortDescription>
+        <value>Note: You are not allowed to raise a Survey Bypass Request</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_SurveyByPassOnCloseCase</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SurveyByPassOnCloseCase</shortDescription>
+        <value>Note: You cannot create a new Survey Bypass Request on Closed Cases.</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_SurveyRequestSuccess</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SurveyRequestSuccess</shortDescription>
+        <value>Survey Bypass Request successfully added.</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_TopCareAgentRoleDeveloperName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Top Care Agent Role Developer Name</shortDescription>
+        <value>CC_Top_Care_Queue</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_UConnectHelpText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UConnectHelpText</shortDescription>
+        <value>Stay connected with UConnect</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_USA</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>USA Label</shortDescription>
+        <value>USA</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_UconnectSpecialist</fullName>
+        <categories>NAFTA, Queue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_UconnectSpecialist</shortDescription>
+        <value>Uconnect Specialist</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_Unavailable</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for unavailable status</shortDescription>
+        <value>UNAVAILBLE</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_UnavailableStatus</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for unavailable recall status</shortDescription>
+        <value>INCOMPLETE,REPAIR PARTS NOT AVAILABLE</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_United_States</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA United States</shortDescription>
+        <value>United States</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_VehicleSearcByVINExtra</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VehicleSearcByVINExtra</shortDescription>
+        <value>VehicleSearcByVINExtra</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_VehicleSearchByPhone</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VehicleSearchByPhone</shortDescription>
+        <value>VehicleSearchByPhone</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_VehicleServiceUnavailable</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>When vehicle service is down then show this message</shortDescription>
+        <value>Database unavailable. Continue case creation by entering &quot;Customer provided VIN&quot;</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_VehicleWarranty</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_VehicleWarranty</shortDescription>
+        <value>VEHICLE WARRANTY</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_WarrantyClaimsLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_WarrantyClaimsLabel</shortDescription>
+        <value>GCS CLAIMS</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_WindsorSpecialistEnglish</fullName>
+        <categories>NAFTA, Queue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_WindsorSpecialistEnglish</shortDescription>
+        <value>Windsor Specialist - English</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_WindsorSpecialistFrench</fullName>
+        <categories>NAFTA, Queue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_WindsorSpecialistFrench</shortDescription>
+        <value>Windsor Specialist - French</value>
+    </labels>
+    <labels>
+        <fullName>NAFTA_contactemailmasking</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NAFTA_contactemailmasking</shortDescription>
+        <value>used for making contact emails</value>
+    </labels>
+    <labels>
+        <fullName>New_case_creation_Entry_1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New case creation Entry 1</shortDescription>
+        <value>snehal.choudhary@tcs.com</value>
+    </labels>
+    <labels>
+        <fullName>Open_Setup</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Open_Setup</shortDescription>
+        <value>Open Setup</value>
+    </labels>
+    <labels>
+        <fullName>PE_Queue</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ENH-476 : This label contains the PE queues details.</shortDescription>
+        <value>PE_L2_CAC_Luxury_Vehicle_Escalated_Cases,CCDL_PEL2CACEscalatedCase</value>
+    </labels>
+    <labels>
+        <fullName>ParameterPrefixForRedirectURL</fullName>
+        <categories>CTI Screen Pop</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ParameterPrefixForRedirectURL</shortDescription>
+        <value>c__</value>
+    </labels>
+    <labels>
+        <fullName>PastDateError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error message to be shown when user enters a backdate</shortDescription>
+        <value>Date must be in present or in future</value>
+    </labels>
+    <labels>
+        <fullName>PaymentMockResponse</fullName>
+        <categories>mockresponse</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PaymentMockResponse</shortDescription>
+        <value>{ &quot;data&quot;: [ {&quot;type&quot;: &quot;CreditCard&quot;, &quot;isDefault&quot;: false, &quot;paymentId&quot;: &quot;2c92c0f868a2023e0168cf13871a0823&quot;, &quot;details&quot;: { &quot;maskNumber&quot;: &quot;xxxxxxxxxxxx3456&quot;, &quot;creditCardExpirationMonth&quot;: &quot;03&quot;, &quot;creditCardExpirationYear&quot;: &quot;2020&quot;, &quot;address1&quot;: &quot;string&quot;, &quot;address2&quot;: &quot;string&quot; } } ], &quot;serverTime&quot;: 1564653404068, &quot;isMockData&quot;:true }</value>
+    </labels>
+    <labels>
+        <fullName>Permission_Sets</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Permission Sets</shortDescription>
+        <value>Permission Sets</value>
+    </labels>
+    <labels>
+        <fullName>Profiles</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Profiles</shortDescription>
+        <value>Profiles</value>
+    </labels>
+    <labels>
+        <fullName>Public_Case_comment_error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Public Case comment error</shortDescription>
+        <value>Public case comment cannot be changed to private</value>
+    </labels>
+    <labels>
+        <fullName>PublicationStatus</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PublicationStatus</shortDescription>
+        <value>Publication Status</value>
+    </labels>
+    <labels>
+        <fullName>ReasonforSMEApprovalBypass</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ReasonforSMEApprovalBypass</shortDescription>
+        <value>Reason for SME Approval Bypass</value>
+    </labels>
+    <labels>
+        <fullName>ReasonforStakeholderApprovalBypass</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ReasonforStakeholderApprovalBypass</shortDescription>
+        <value>Reason for Stakeholder Approval Bypass</value>
+    </labels>
+    <labels>
+        <fullName>Recall_Agent_UserRoleID</fullName>
+        <categories>Id</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>To fetch Recall_Agent_UserRole ID</shortDescription>
+        <value>00Ef1000000kFp8EAE</value>
+    </labels>
+    <labels>
+        <fullName>Recall_Outreach_Queue_Id</fullName>
+        <categories>Id</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>To fetch Recall Outreach Queue Id</shortDescription>
+        <value>00Gf1000002xG6jEAE</value>
+    </labels>
+    <labels>
+        <fullName>RelatedArticles</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RelatedArticles</shortDescription>
+        <value>Related Articles</value>
+    </labels>
+    <labels>
+        <fullName>ResolverGroupName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ResolverGroupName</shortDescription>
+        <value>G_XXX_GCV_LEVEL_1_NAFTA_COE</value>
+    </labels>
+    <labels>
+        <fullName>Resources</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Resources</shortDescription>
+        <value>Resources</value>
+    </labels>
+    <labels>
+        <fullName>SME</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SME</shortDescription>
+        <value>SME</value>
+    </labels>
+    <labels>
+        <fullName>SMEApprover</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SMEApprover</shortDescription>
+        <value>SME Approver</value>
+    </labels>
+    <labels>
+        <fullName>STAR</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>STAR</shortDescription>
+        <value>STAR</value>
+    </labels>
+    <labels>
+        <fullName>Save</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>Selected</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Selected</shortDescription>
+        <value>Selected</value>
+    </labels>
+    <labels>
+        <fullName>Special_Investigation_Team_RoleId</fullName>
+        <categories>Roles</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Special Investigation Team RoleId</shortDescription>
+        <value>00Ef1000001RDmn</value>
+    </labels>
+    <labels>
+        <fullName>StakeholderApprover</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>StakeholderApprover</shortDescription>
+        <value>Stakeholder Approver</value>
+    </labels>
+    <labels>
+        <fullName>TYPE_OPTION_NOT_SELECTED</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Please choose a valid custom metadata type.</shortDescription>
+        <value>Please choose a valid custom metadata type.</value>
+    </labels>
+    <labels>
+        <fullName>Task_TO_Customer_Retention_Team_Comment</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Task TO Customer Retention Team Comment</shortDescription>
+        <value>Please contact customer within 1 Business Day through their preferred mode of communication</value>
+    </labels>
+    <labels>
+        <fullName>Task_To_Customer_Retention_Team_Subject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Task To Customer Retention Team Subject</shortDescription>
+        <value>[Action Required!] Customer Retention Team - First Customer Contact</value>
+    </labels>
+    <labels>
+        <fullName>Task_To_Dealer_Comment</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Task To Dealer Comment</shortDescription>
+        <value>This is a high-priority vehicle. Customer may have requested repurchase or replacement. Send repair orders immediately by email, contact customerretention@fcagroup.com, with Case Number in Subject line.
+
+A Customer Retention Specialist will contact you with additional questions</value>
+    </labels>
+    <labels>
+        <fullName>Task_To_Dealer_Subject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Task To Dealer Subject</shortDescription>
+        <value>[Action Required!] Customer Retention Team - First Dealer Inquiry</value>
+    </labels>
+    <labels>
+        <fullName>TestOutboundType</fullName>
+        <categories>Used to test generic outbound type</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TestOutboundType</shortDescription>
+        <value>Adhoc Test</value>
+    </labels>
+    <labels>
+        <fullName>TestRendaring</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TestRendaring</shortDescription>
+        <value>TestRendaring</value>
+    </labels>
+    <labels>
+        <fullName>Test_VINS</fullName>
+        <categories>mockresponse</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Test VINS</shortDescription>
+        <value>1C4SJVGJ8NS100182;ZARFAECN7J7575142</value>
+    </labels>
+    <labels>
+        <fullName>Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Title</shortDescription>
+        <value>Title</value>
+    </labels>
+    <labels>
+        <fullName>TrendingArticles</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TrendingArticles</shortDescription>
+        <value>Trending Articles</value>
+    </labels>
+    <labels>
+        <fullName>U</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>U</shortDescription>
+        <value>CC_CNAUpdate__c</value>
+    </labels>
+    <labels>
+        <fullName>URLName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>URLName</shortDescription>
+        <value>URL Name</value>
+    </labels>
+    <labels>
+        <fullName>URN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>URN</shortDescription>
+        <value>CreatedBy.UserRole.Name</value>
+    </labels>
+    <labels>
+        <fullName>Uconnect_Specialist</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Uconnect Specialist</shortDescription>
+        <value>NAFTA_Uconnect_specialist</value>
+    </labels>
+    <labels>
+        <fullName>Unsaved_Header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Unsaved Header</shortDescription>
+        <value>Unsaved Changes</value>
+    </labels>
+    <labels>
+        <fullName>Unsaved_Message</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Unsaved Message</shortDescription>
+        <value>You have not saved your changes. Are you sure you want to navigate away?</value>
+    </labels>
+    <labels>
+        <fullName>UsedinTraining</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UsedinTraining</shortDescription>
+        <value>Used in Training</value>
+    </labels>
+    <labels>
+        <fullName>VisibleInInternalApp</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VisibleInInternalApp</shortDescription>
+        <value>Visible In Internal App</value>
+    </labels>
+    <labels>
+        <fullName>VisibleInPublicKnowledgeBase</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VisibleInPublicKnowledgeBase</shortDescription>
+        <value>Visible In Public Knowledge Base</value>
+    </labels>
+    <labels>
+        <fullName>VisibletoCustomer</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VisibletoCustomer</shortDescription>
+        <value>Visible to Customer</value>
+    </labels>
+    <labels>
+        <fullName>VisibletoPartner</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VisibletoPartner</shortDescription>
+        <value>Visible to Partner</value>
+    </labels>
+    <labels>
+        <fullName>WSCommnunityContactUs</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WSCommnunityContactUs</shortDescription>
+        <value>https://fcacommunity.force.com/Wagoneer/s/article/How-do-I-contact-Wagoneer-Client-Services</value>
+    </labels>
+    <labels>
+        <fullName>WSCommunityClientLink</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WSCommunityClientLink</shortDescription>
+        <value>https://connect.wagoneer.com</value>
+    </labels>
+    <labels>
+        <fullName>WSCommunityDealerLocatorLink</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WSCommunityDealerLocatorLink</shortDescription>
+        <value>https://www.mopar.com/en-us/services/find-dealer.html</value>
+    </labels>
+    <labels>
+        <fullName>WSCommunityRSALink</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WSCommunityRSALink</shortDescription>
+        <value>https://www.mopar.com/en-us/services/roadside-assistance.html</value>
+    </labels>
+    <labels>
+        <fullName>WagoneerConnectLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WagoneerConnectLabel</shortDescription>
+        <value>Wagoneer Connect</value>
+    </labels>
+    <labels>
+        <fullName>WagoneerContactUsLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WagoneerContactUsLabel</shortDescription>
+        <value>Contact Us</value>
+    </labels>
+    <labels>
+        <fullName>WagoneerDealerLocator</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WagoneerDealerLocator</shortDescription>
+        <value>Dealer Locator</value>
+    </labels>
+    <labels>
+        <fullName>WagoneerRoadSideAssistanceLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WagoneerRoadSideAssistanceLabel</shortDescription>
+        <value>Roadside Assistance</value>
+    </labels>
+    <labels>
+        <fullName>Wagoneer_Client_Services</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>It holds the email address of Wagoneer Customer Care USA</shortDescription>
+        <value>Wagoneer Client Services</value>
+    </labels>
+    <labels>
+        <fullName>Wagoneer_Customer_Care_Canada_English</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Wagoneer Customer Care Canada English</shortDescription>
+        <value>Wagoneer Client Services Canada</value>
+    </labels>
+    <labels>
+        <fullName>Wagoneer_Customer_Care_Canada_French</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Wagoneer Customer Care Canada French</shortDescription>
+        <value>Service à la Clientèle de Wagoneer Canada</value>
+    </labels>
+    <labels>
+        <fullName>Warning_Header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Warning_Header</shortDescription>
+        <value>Well this is awkward...</value>
+    </labels>
+    <labels>
+        <fullName>Warning_Message</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Warning Message</shortDescription>
+        <value>To use this app, you must assign yourself the &apos;AuraEnabled Scanner User&apos; permission set in the Setup Menu first.</value>
+    </labels>
+    <labels>
+        <fullName>Wasthisarticlehelpful</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Wasthisarticlehelpful</shortDescription>
+        <value>Was this article helpful?</value>
+    </labels>
+    <labels>
+        <fullName>ap</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ap</shortDescription>
+        <value>AP1 test</value>
+    </labels>
+    <labels>
+        <fullName>cautions</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>cautions</shortDescription>
+        <value>Cautions</value>
+    </labels>
+    <labels>
+        <fullName>chatter</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>chatter</shortDescription>
+        <value>Chatter isn&apos;t enabled or the user doesn&apos;t have Chatter access.</value>
+    </labels>
+    <labels>
+        <fullName>date</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>date</shortDescription>
+        <value>Jun 14, 2022•AnswerHUB</value>
+    </labels>
+    <labels>
+        <fullName>definitions</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>definitions</shortDescription>
+        <value>Definitions</value>
+    </labels>
+    <labels>
+        <fullName>details</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>details</shortDescription>
+        <value>Details</value>
+    </labels>
+    <labels>
+        <fullName>dont</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>dont</shortDescription>
+        <value>Don&apos;t see what you&apos;re looking for?</value>
+    </labels>
+    <labels>
+        <fullName>follow</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>follow</shortDescription>
+        <value>follow</value>
+    </labels>
+    <labels>
+        <fullName>gEeneralinformation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>gEeneralinformation</shortDescription>
+        <value>General Information</value>
+    </labels>
+    <labels>
+        <fullName>hArticleTotalViewCount</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>hArticleTotalViewCount</shortDescription>
+        <value>लेख कुल देखे जाने की संख्या</value>
+    </labels>
+    <labels>
+        <fullName>hArticles</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>hArticles</shortDescription>
+        <value>Articles</value>
+    </labels>
+    <labels>
+        <fullName>hClassic_ONLY</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>hClassicONLY</shortDescription>
+        <value>केवल क्लासिक</value>
+    </labels>
+    <labels>
+        <fullName>hCreatedDate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>hCreatedDate</shortDescription>
+        <value>सृजित दिनांक</value>
+    </labels>
+    <labels>
+        <fullName>hExpiryDate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>hExpiryDate</shortDescription>
+        <value>समाप्ति तिथि</value>
+    </labels>
+    <labels>
+        <fullName>hInternalComments</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>hInternalComments</shortDescription>
+        <value>आंतरिक टिप्पणियाँ</value>
+    </labels>
+    <labels>
+        <fullName>hKeywords</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>hKeywords</shortDescription>
+        <value>कीवर्ड</value>
+    </labels>
+    <labels>
+        <fullName>hPublicationStatus</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>hPublicationStatus</shortDescription>
+        <value>प्रकाशन की स्थिति</value>
+    </labels>
+    <labels>
+        <fullName>hReason</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>hReason</shortDescription>
+        <value>एसएमई अनुमोदन बाईपास का कारण</value>
+    </labels>
+    <labels>
+        <fullName>hReasonforStakeholderApprovalBypass</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>hReasonforStakeholderApprovalBypass</shortDescription>
+        <value>हितधारक अनुमोदन बाईपास का कारण</value>
+    </labels>
+    <labels>
+        <fullName>hRelatedArticles</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>hRelatedArticles</shortDescription>
+        <value>संबंधित आलेख</value>
+    </labels>
+    <labels>
+        <fullName>hResources</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>hResources</shortDescription>
+        <value>संसाधन</value>
+    </labels>
+    <labels>
+        <fullName>hTestRendaring</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>hTestRendaring</shortDescription>
+        <value>टेस्ट रेंडरिंग</value>
+    </labels>
+    <labels>
+        <fullName>hTrendingArticles</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>hTrendingArticles</shortDescription>
+        <value>रुझान वाले लेख</value>
+    </labels>
+    <labels>
+        <fullName>hUsedinTraining</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>hUsedinTraining</shortDescription>
+        <value>प्रशिक्षण में प्रयुक्त</value>
+    </labels>
+    <labels>
+        <fullName>hVisibleInInternalApp</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>hVisibleInInternalApp</shortDescription>
+        <value>आंतरिक ऐप में दृश्यमान</value>
+    </labels>
+    <labels>
+        <fullName>hVisibleInPublicKnowledgeBase</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>hVisibleInPublicKnowledgeBase</shortDescription>
+        <value>सार्वजनिक ज्ञानकोष में दृश्यमान</value>
+    </labels>
+    <labels>
+        <fullName>hVisibletoCustomer</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>hVisibletoCustomer</shortDescription>
+        <value>ग्राहक के लिए दृश्यमान</value>
+    </labels>
+    <labels>
+        <fullName>hVisibletoPartner</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>hVisibletoPartner</shortDescription>
+        <value>भागीदार के लिए दृश्यमान</value>
+    </labels>
+    <labels>
+        <fullName>hask</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>hask</shortDescription>
+        <value>प्रश्न पूछें</value>
+    </labels>
+    <labels>
+        <fullName>hcaution</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>hcaution</shortDescription>
+        <value>चेतावनी</value>
+    </labels>
+    <labels>
+        <fullName>hchatter</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>hchatter</shortDescription>
+        <value>चैटर सक्षम नहीं है या उपयोगकर्ता के पास चैटर एक्सेस नहीं है।</value>
+    </labels>
+    <labels>
+        <fullName>hcontacts</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>hcontacts</shortDescription>
+        <value>सहयोग टीम से संपर्क करें</value>
+    </labels>
+    <labels>
+        <fullName>hdef</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>hdef</shortDescription>
+        <value>परिभाषाएं</value>
+    </labels>
+    <labels>
+        <fullName>hdetail</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>hdetail</shortDescription>
+        <value>विवरण</value>
+    </labels>
+    <labels>
+        <fullName>hdont</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>hdont</shortDescription>
+        <value>आप जो खोज रहे हैं वह नहीं दिख रहा है?</value>
+    </labels>
+    <labels>
+        <fullName>hfollow</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>hfollow</shortDescription>
+        <value>फॉलो</value>
+    </labels>
+    <labels>
+        <fullName>hlanguage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>hlanguage</shortDescription>
+        <value>भाषा</value>
+    </labels>
+    <labels>
+        <fullName>hpm</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>hpm</shortDescription>
+        <value>प्रधानमंत्री नरेंद्र मोदी</value>
+    </labels>
+    <labels>
+        <fullName>hsme</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>hsme</shortDescription>
+        <value>एसएमई</value>
+    </labels>
+    <labels>
+        <fullName>htitle</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>htitle</shortDescription>
+        <value>शीर्षक</value>
+    </labels>
+    <labels>
+        <fullName>hurlName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>hurlName</shortDescription>
+        <value>URLनाम</value>
+    </labels>
+    <labels>
+        <fullName>hwarrannty</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>hwarrannty</shortDescription>
+        <value>गारंटी</value>
+    </labels>
+    <labels>
+        <fullName>pm</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>pm</shortDescription>
+        <value>Prime Minister Narendra Modi</value>
+    </labels>
+    <labels>
+        <fullName>summary</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>summary</shortDescription>
+        <value>Summary</value>
+    </labels>
+    <labels>
+        <fullName>th_TrailheadInputSearchDelay</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Number of milliseconds to wait before perfoming a search</shortDescription>
+        <value>600</value>
+    </labels>
+    <labels>
+        <fullName>th_TrailheadMinCharSearchThreshold</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Minimum number of characters before a search is perfomed</shortDescription>
+        <value>1</value>
+    </labels>
+    <labels>
+        <fullName>th_TrailheadShareCompleteMsg</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Message to share for completed trailhead items</shortDescription>
+        <value>Hey, I completed this. Why don&apos;t you give it a try?</value>
+    </labels>
+    <labels>
+        <fullName>th_TrailheadShareIncompleteMsg</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Message to share for in-progress trailhead items</shortDescription>
+        <value>Hey, check out this learning.</value>
+    </labels>
+    <labels>
+        <fullName>th_TrailheadTypeBadge</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Trailhead Assignment Type Badge</shortDescription>
+        <value>Badge</value>
+    </labels>
+    <labels>
+        <fullName>th_TrailheadTypeBoth</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Trailhead Assignment Type Both</shortDescription>
+        <value>Both</value>
+    </labels>
+    <labels>
+        <fullName>th_TrailheadTypeTrailmix</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Trailhead Assignment Type Trailmix</shortDescription>
+        <value>TrailMix</value>
+    </labels>
+    <labels>
+        <fullName>th_trailhead_link_address</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Trailhead Assignment List Trailhead Link Address</shortDescription>
+        <value>https://trailhead.salesforce.com/</value>
+    </labels>
+    <labels>
+        <fullName>th_trailhead_link_label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Trailhead Assignment List Trailhead Link Label</shortDescription>
+        <value>myTrailhead</value>
+    </labels>
+    <labels>
+        <fullName>th_trailhead_trail_icon</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Trailhead Assignment List Trail Icon</shortDescription>
+        <value>https://trailhead-web.s3.amazonaws.com/uploads/users/5396019/photos/thumb_030804d3576dab0cdc2a558055816208e421312a9d1495117d57928ef380d7f2.png?updatedAt=20180906113753</value>
+    </labels>
+    <labels>
+        <fullName>was</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>was</shortDescription>
+        <value>क्या यह लेख सहायक था?</value>
+    </labels>
+</CustomLabels>

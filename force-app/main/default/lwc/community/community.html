@@ -1,0 +1,299 @@
+<template>
+    <template if:true={value}>
+    <div style="background-color: white;">
+        <div style="background-color: black; ">
+            <div  style="height:60px; display: flex;">
+                <div style="width:50%; height: 30px;">
+                    <button class="slds-button " style="color: aliceblue;">Accueil</button>
+                    <button class="slds-button " style="color: aliceblue;" >Canada</button>
+                    <button class="slds-button " style="color: aliceblue;">Mexico</button>
+                </div>
+           
+              </div>
+       
+                            <div class="slds-align_absolute-center slds-text-heading_large" 
+                                    style="color: aliceblue; height:5rem;" >{label.Howw}
+
+                            </div>
+   
+                <div class="slds-form-element">
+                    
+                    <div style="display: flex;justify-content: center;" class="slds-p-bottom_large slds-p-left_large slds-p-right_large slds-form-element__control slds-input-has-icon slds-input-has-icon_right">
+                        <div style="width: 55%; align-self: center;" >
+                            <input type="text" class="slds-input" placeholder={label.searchh} />
+                        </div>
+                        <div>
+                            <lightning-button label={label.searchh}></lightning-button>
+                        </div>
+
+                    </div>
+                </div>
+     
+            </div>
+
+<div style="width: 100%; color: #000;">
+    <lightning-combobox
+    label={label.Language}
+    name="progress"
+    value={value}
+    placeholder="Select the Language"
+    options={options}
+    onchange={handleChange}>
+    </lightning-combobox>
+</div>
+
+
+    <div style=" width: 100%; height:500px; display: flex; margin-top:50px;">
+        <div style="width: 50%; height: 320px;font-size: 18px;">
+                <b>{label.trend}</b>
+
+               
+
+
+            <div>
+                <div style="color: black;" onclick={api}><a  style="color: #000;font-size: 15px;" >{label.api}</a></div><br>
+                <div style="height: 1px; width: 100%; background-color: black;"></div>
+                <div style="color: black; margin-top: 12px;" ><a style="color: #000; font-size: 15px;">{label.wednesday}</a></div><br>
+                <div style="height: 1px; width: 100%; background-color: black;"></div>
+            </div>
+
+
+            
+
+            <p style="margin-top: 10px; margin-bottom: 10px;font-size: 18px;">
+                <b>{label.Faq}</b>
+            </p>
+
+
+            
+
+            <div style="height:300px; width: 100%; display: flex;">
+
+                <div style="height:300px; width: 50%; ">
+                    <div style="font-size: 15px;"><a style="color: #000; font-size: 20px;">{label.mostt}</a></div>
+                    
+                <div >
+                <div style="margin-top: 14px;"><a style="color: #000; font-size: 15px;">{label.api}</a></div><br>
+                <div style="margin-top: 15px; "><a style="color: #000;font-size: 20px;">{label.fin}</a></div>
+                <p style="font-size: 15px;">{label.parag}</p>
+                <div style="margin-top: 15px; font-size: 15px;"><a style="color: #000;font-size: 20px;" >{label.parts}</a></div>
+                <p style="font-size: 15px;">{label.parag}</p>
+                        </div>
+
+
+                </div>
+                <div style="height:300px; width: 50%; float: right;">
+                    <div style="font-size: 15px;"><a style="color: #000;font-size: 20px;">{label.con}</a></div>
+                    <div >
+                        <p style="font-size: 15px;">{label.parag}</p>
+                </div>
+                <div style="margin-top: 42px; font-size: 15px;"><a style="color: #000;font-size: 20px;">{label.genral}</a></div>
+                <a style="color: black; font-size: 15px;">{label.wednesday}</a>
+                <div style="margin-top: 15px; font-size: 15px;"><a style="color: #000;font-size: 20px;">{label.re}</a></div>
+                <p style="font-size: 15px;">{label.parag}</p>
+    
+                </div>
+            </div>
+            </div>
+
+            <div style=" width: 50%; height: 320px; float:right;">
+                
+                <div style=" justify-content: center; display: flex;margin-top: 10px;">
+
+                        <button type="button" class="slds-button slds-button_neutral" style="color: black;
+                        width: 370px;
+                        height: 45px;
+                        font-size: x-large;">{label.road}</button>
+
+
+                   
+                
+                
+                </div> 
+                <div style=" justify-content: center; display: flex; margin-top: 10px;">
+                  
+    
+                        <button type="button" class="slds-button slds-button_neutral" style="color: black;
+                        width: 370px;
+                        height: 45px;
+                        font-size: x-large;">{label.wag}</button>   
+    
+                    
+                   
+                    
+                    </div>
+                    <div style=" justify-content: center; display: flex; margin-top: 10px;">
+                        <button type="button" class="slds-button slds-button_neutral" style="color: black;
+                        width: 370px;
+                        height: 45px;
+                        font-size: x-large;">{label.loc}</button>   
+
+                              
+        
+                                             
+                    </div>
+
+                        <div style=" justify-content: center; display: flex; margin-top: 10px;">
+                                    <button type="button" class="slds-button slds-button_neutral" style="color: black;
+                                    width: 370px;
+                                    height: 45px;
+                                    font-size: x-large;">{label.us}</button>   
+
+                        </div>
+                            
+                           
+
+                            
+            </div>
+
+        </div>
+     
+    </div>
+</template>
+<template if:false={value}>
+    <div style="background-color: white;">
+        <div style="background-color: black; ">
+            <div  style="height:60px; display: flex;">
+                <div style="width:50%; height: 30px;">
+                <button class="slds-button " style="color: aliceblue;">Accueil</button>
+                <button class="slds-button " style="color: aliceblue;" >Canada</button>
+                <button class="slds-button " style="color: aliceblue;">Mexico</button>
+                </div>
+            
+                  
+        
+                    
+            </div>
+            <div class="slds-align_absolute-center slds-text-heading_large" style="color: aliceblue; height:5rem;" >{label.hindihow}</div>
+           
+        
+       
+        
+   
+     <div class="slds-form-element">
+        
+        <div style="display: flex;justify-content: center;" class="slds-p-bottom_large slds-p-left_large slds-p-right_large slds-form-element__control slds-input-has-icon slds-input-has-icon_right">
+            <div style="width: 55%; align-self: center;" >
+                <input type="text" class="slds-input" placeholder={label.hindise} />
+               
+
+            </div>
+            <div>
+                <lightning-button label={label.hindise}></lightning-button>
+            </div>
+
+        </div>
+     </div>
+     </div>
+     
+</div>
+
+<div style="width: 100%; color: #000;">
+    <lightning-combobox
+    label={label.p}
+    name="progress"
+    value={value}
+    placeholder="Select the Language"
+    options={options}
+    onchange={handleChange2}>
+    </lightning-combobox>
+</div>
+<div style=" width: 100%; height:500px; display: flex; margin-top:50px;">
+    <div style="width: 50%; height: 320px;font-size: 18px;">
+                <b>{label.tre}</b>
+                <div >
+                    <div style="color: black;" ><a style="color: #000;font-size: 15px;">{label.app}</a></div><br>
+                    <div style="height: 1px; width: 100%; background-color: black;"></div>
+                    <div style="color: black; margin-top: 12px;" ><a style="color: #000; font-size: 15px;">{label.wee}</a></div><br>
+                    <div style="height: 1px; width: 100%; background-color: black;"></div>
+                </div>
+
+
+
+                <p style="margin-top: 10px; margin-bottom: 10px;font-size: 18px;">
+                    <b>{label.fff}</b>
+                </p>
+
+
+
+                <div style="height:300px; width: 100%; display: flex;">
+
+                    <div style="height:300px; width: 50%; ">
+                        <div style="font-size: 15px;"><a style="color: #000; font-size: 20px;">{label.mpp}</a></div>
+                        
+                    <div >
+                    <div style="margin-top: 14px;"><a style="color: #000; font-size: 15px;">{label.app}</a></div><br>
+                    <div style="margin-top: 15px; "><a style="color: #000;font-size: 20px;">{label.fss}</a></div>
+                    <p style="font-size: 15px;">{label.ppp}</p>
+                    <div style="margin-top: 15px; font-size: 15px;"><a style="color: #000;font-size: 20px;" >{label.p}</a></div>
+                    <p style="font-size: 15px;">{label.ppp}</p>
+                            </div>
+    
+    
+                    </div>
+                    <div style="height:300px; width: 50%; float: right;">
+                        <div style="font-size: 15px;"><a style="color: #000;font-size: 20px;">{label.c}</a></div>
+                        <div >
+                            <p style="font-size: 15px;">{label.ppp}</p>
+                    </div>
+                    <div style="margin-top: 42px; font-size: 15px;"><a style="color: #000;font-size: 20px;">{label.g}</a></div>
+                    <a style="color: black; font-size: 15px;">{label.wee}</a>
+                    <div style="margin-top: 15px; font-size: 15px;"><a style="color: #000;font-size: 20px;">{label.r}</a></div>
+                    <p style="font-size: 15px;">{label.ppp}</p>
+        
+                    </div>
+                </div>
+
+            
+
+
+            
+
+            
+
+
+            </div>
+
+            <div style=" width: 50%; height: 320px; float:right;">
+                
+                <div style=" justify-content: center; display: flex;margin-top: 10px;">
+                    <button type="button" class="slds-button slds-button_neutral" style="color: black;
+                                    width: 370px;
+                                    height: 45px;
+                                    font-size: x-large;">{label.rr}
+                    </button> 
+                </div>
+                <div style=" justify-content: center; display: flex; margin-top: 10px;">
+                    <button type="button" class="slds-button slds-button_neutral" style="color: black;
+                                    width: 370px;
+                                    height: 45px;
+                                    font-size: x-large;">{label.w}
+                            </button> 
+
+                    </div>
+                    <div style=" justify-content: center; display: flex; margin-top: 10px;">
+                        <button type="button" class="slds-button slds-button_neutral" style="color: black;
+                        width: 370px;
+                        height: 45px;
+                        font-size: x-large;">{label.d}</button>
+                    </div>
+
+                        <div style=" justify-content: center; display: flex; margin-top: 10px;">
+                            <button type="button" class="slds-button slds-button_neutral" style="color: black;
+                                    width: 370px;
+                                    height: 45px;
+                                    font-size: x-large;">{label.cc}
+                            </button>      
+                        </div>
+                            
+                         
+
+                            
+            </div>
+
+        </div>
+     
+    </div>
+</template>
+
+</template>

@@ -1,0 +1,429 @@
+<template>
+    <template if:true={value}>
+        <div style="width: 100%; display: flex;">
+            <div style="width: 70%;">
+                <div>
+                    <span style="color: blue;">{label.mostt}</span>
+                    <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium;">{label.api}</div>
+                    <div class="slds-form-element">
+                        
+                            
+                            <div style="width: 100%; display:flex;">
+                            <div style="width: 4%;">
+                                <lightning-icon icon-name="utility:clock" alternative-text="Connected" size="small"></lightning-icon>
+                            </div>
+                                
+                            <div>
+                                <p>{label.Date}</p>
+    
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.summary}</div>
+                    <div style="height: 1px; width: 100%; background-color: black;"></div>
+                    <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.detail}</div>
+                    <div style="height: 1px; width: 100%; background-color: black;"></div>
+                    <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.caution}</div>
+                    <div style="height: 1px; width: 100%; background-color: black;"></div>
+                    <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.def}</div>
+                    <div style="height: 1px; width: 100%; background-color: black;"></div>
+                    <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.faq}</div>
+                    <div style="height: 1px; width: 100%; background-color: black;"></div>
+    
+                    <div style="width: 100%; display: flex;">
+                        <div style="/*background-color: brown; */ width: 100%;">
+                            <div style="width: 50%; display: flex;">
+                                <div style="width:100%">
+                                    <div class="slds-m-top_medium "  style="font-weight: bold;font-size:medium; border: 1px; width: 339px; ">{label.sme}</div><br>
+                                    <a style="color:blue;font-size: 15px;" class="slds-p-bottom_medium">T7930ER</a>
+    
+                                </div>
+                            
+                            <div style="float: right;" class="slds-m-left_large">
+                            <div class="slds-m-top_medium "  style="font-weight: bold;font-size:medium; border: 1px; width: 471px; ">{label.sa}</div><br>
+                            <a style="color:blue;font-size: 15px;" class="slds-p-bottom_medium">T1336M0</a>
+                            </div>
+                            </div>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+    
+    
+                            <div style="width: 50%; display: flex;">
+                                <div style="width:100%">
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px; width: 339px;">{label.BypassSMEApproval}</div>
+                            <p><input type="checkbox"></p>
+                        </div>
+                        <div style="float: right;" class="slds-m-left_large">
+                            <div class="slds-m-top_medium "  style="font-weight: bold;font-size:medium; border: 1px; width: 471px; ">{label.BypassStakeholderApproval}</div><br>
+                            <p><input type="checkbox"></p>
+                        </div>
+                        </div>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+    
+    
+                           <div style="width: 50%; display: flex;">
+                            <div style="width:100%">
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px; width: 325px;">{label.ReasonforSMEApprovalBypass}</div>
+                        </div>
+                        <div style="float: right;" class="slds-m-left_large">
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px; width: 317px;">{label.Reason}</div>
+    
+                        </div>
+                            </div>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.Resources}</div>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.Articles}</div>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.InternalComments}</div>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.summary}</div>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.ClassicONLY}</div>
+                            <p><input type="checkbox"></p>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.Keywords}</div>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.UsedinTraining}</div>
+                            <p><input type="checkbox"></p>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.SME}</div>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.Title}</div>
+                            <p>AP1 test</p>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.URLName}</div>
+                            <p>AP1-test</p>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.Language}</div>
+                            <p>English</p>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.CreatedDate}</div>
+                            <p>6/14/2022 10:57 AM</p>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.PublicationStatus}</div>
+                            <p>Published</p>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.ArticleTotalViewCount}</div>
+                            <p>37</p>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.ExpiryDate}</div>
+                            <p>7/27/2022</p>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.VisibleInInternalApp}</div>
+                            <p><input type="checkbox"></p>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.VisibletoPartner}</div>
+                            <p><input type="checkbox"></p>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.VisibletoCustomer}</div>
+                            <p><input type="checkbox"></p>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.VisibleInPublicKnowledgeBase}</div>
+                            <p><input type="checkbox"></p>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight:normal;font-size:medium; border: 1px;">
+                                <lightning-button style="color: blue;" class="slds-m-right_small" label="Warrenty"></lightning-button>
+                                <lightning-button style="color: blue;" class="slds-m-left_small" label="Most Popular"></lightning-button>
+                            </div>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+    
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px; display: flex;">
+                                <p>{label.Wasthisarticlehelpful}</p>
+                                <div class="slds-m-left_large" style="margin-left: 568px;">
+                                <lightning-icon icon-name="utility:like" alternative-text="Connected" title="Connected" style="float: right;">
+                                </lightning-icon></div>
+                                <div style="margin-left: 10px;">
+                                <lightning-icon icon-name="utility:dislike" alternative-text="Connected" title="Connected" style="float: right;">
+                                </lightning-icon>
+                            </div>
+                            </div>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight:normal;font-size:medium; border: 1px;">
+                                <p style="text-align: center;">{label.chatter}</p>
+                            </div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium" style="font-weight:normal;font-size:medium; border: 1px;">
+                                <p style="text-align: right;">{label.dont}</p>
+                            </div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium slds-m-left_large" style="margin-left: 320px;">
+                                <button type="button" class="slds-button slds-button_success slds-m-left_small" style="color: black;
+                                width: 207px;
+                                height: 37px;
+                                font-size:medium;">{label.AskaQuestion}</button> 
+                                <button type="button" class="slds-button slds-button_success" style="color: black;
+                                width: 207px;
+                                height: 37px;
+                                font-size: medium;">{label.ContactSupport} </button> 
+                               
+                            </div>
+    
+    
+    
+    
+    
+                        </div>
+                        
+    
+                    </div>
+    
+    
+    
+    
+    
+    
+    
+                    
+                </div>
+            </div>
+            
+        
+            <div style="/*background-color: rgb(214, 183, 183);*/ float: right;">   
+                <div class="slds-m-left_medium">
+                <div class="slds-m-top_small slds-m-right_small" >
+                    <button type="button" class="slds-button slds-button_success" style="color: black;
+                            width: 370px;
+                            height: 45px;
+                            font-size: x-large;">{label.follow}</button> 
+                </div>
+    
+                <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.RelatedArticles}</div>
+                <div style="height: 1px; width: 100%; background-color: black;"></div>
+                <div class="slds-m-top_medium slds-m-bottom_medium"><a  style="width: 100%;  color: black;">{label.TestRendaring}</a></div>
+                <div style="height: 1px; width: 100%; background-color: black;"></div>
+    
+    
+    
+                <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.TrendingArticles}</div>
+                <div class="slds-m-top_medium slds-m-bottom_medium"><a  style="width: 100%;  color: black;">{label.api}</a></div>
+                <div style="height: 1px; width: 100%; background-color: black;"></div>
+                <div class="slds-m-top_medium slds-m-bottom_medium"><a  style="width: 100%;  color: black;">{label.TestRendaring}</a></div>
+                <div style="height: 1px; width: 100%; background-color: black;"></div>
+                <div class="slds-m-top_medium slds-m-bottom_medium"><a  style="width: 100%; color: black;">{label.pm}</a></div>
+                <div style="height: 1px; width: 100%; background-color: black;"></div>
+            </div> 
+    
+    
+    
+    
+    
+    
+            </div>
+    
+        </div>
+    </template>
+    <template if:false={value}>
+
+        <div style="width: 100%; display: flex;">
+            <div style="width: 70%;">
+                <div>
+                    <span style="color: blue;">{label.Hmostpopular}</span>
+                    <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium;">{label.Hap}</div>
+                    <div class="slds-form-element">
+                        
+                            
+                            <div style="width: 100%; display:flex;">
+                            <div style="width: 4%;">
+                                <lightning-icon icon-name="utility:clock" alternative-text="Connected" size="small"></lightning-icon>
+                            </div>
+                                
+                            <div>
+                                <p>{label.Date}</p>
+    
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.Hsummary}</div>
+                    <div style="height: 1px; width: 100%; background-color: black;"></div>
+                    <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.hdetail}</div>
+                    <div style="height: 1px; width: 100%; background-color: black;"></div>
+                    <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.hcaution}</div>
+                    <div style="height: 1px; width: 100%; background-color: black;"></div>
+                    <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.hdef}</div>
+                    <div style="height: 1px; width: 100%; background-color: black;"></div>
+                    <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.hfaq}</div>
+                    <div style="height: 1px; width: 100%; background-color: black;"></div>
+    
+                    <div style="width: 100%; display: flex;">
+                        <div style="/*background-color: brown; */ width: 100%;">
+                            <div style="width: 50%; display: flex;">
+                                <div style="width:100%">
+                                    <div class="slds-m-top_medium "  style="font-weight: bold;font-size:medium; border: 1px; width: 339px; ">{label.HSMEApprover}</div><br>
+                                    <a style="color:blue;font-size: 15px;" class="slds-p-bottom_medium">T7930ER</a>
+    
+                                </div>
+                            
+                            <div style="float: right;" class="slds-m-left_large">
+                            <div class="slds-m-top_medium "  style="font-weight: bold;font-size:medium; border: 1px; width: 471px; ">{label.HStakeholderApprover}</div><br>
+                            <a style="color:blue;font-size: 15px;" class="slds-p-bottom_medium">T1336M0</a>
+                            </div>
+                            </div>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+    
+    
+                            <div style="width: 50%; display: flex;">
+                                <div style="width:100%">
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px; width: 339px;">{label.HBypassSMEApproval}</div>
+                            <p><input type="checkbox"></p>
+                        </div>
+                        <div style="float: right;" class="slds-m-left_large">
+                            <div class="slds-m-top_medium "  style="font-weight: bold;font-size:medium; border: 1px; width: 471px; ">{label.HBypassStakeholderApproval}</div><br>
+                            <p><input type="checkbox"></p>
+                        </div>
+                        </div>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+    
+    
+                           <div style="width: 50%; display: flex;">
+                            <div style="width:100%">
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px; width: 325px;">{label.HReasonforSMEApprovalBypass}</div>
+                        </div>
+                        <div style="float: right;" class="slds-m-left_large">
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px; width: 317px;">{label.hReason}</div>
+    
+                        </div>
+                            </div>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.hResources}</div>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.hArticles}</div>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.hInternalComments}</div>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.Hsummary}</div>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.hClassicONLY}</div>
+                            <p><input type="checkbox"></p>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.hKeywords}</div>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.hUsedinTraining}</div>
+                            <p><input type="checkbox"></p>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.hsme}</div>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.htitle}</div>
+                            <p>AP1 test</p>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.hurlName}</div>
+                            <p>AP1-test</p>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.hlanguage}</div>
+                            <p>English</p>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.hCreatedDate}</div>
+                            <p>6/14/2022 10:57 AM</p>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.hPublicationStatus}</div>
+                            <p>Published</p>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.hArticleTotalViewCount}</div>
+                            <p>37</p>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.hExpiryDate}</div>
+                            <p>7/27/2022</p>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.hVisibleInInternalApp}</div>
+                            <p><input type="checkbox"></p>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.hVisibletoPartner}</div>
+                            <p><input type="checkbox"></p>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.hVisibletoCustomer}</div>
+                            <p><input type="checkbox"></p>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.hVisibleInPublicKnowledgeBase}</div>
+                            <p><input type="checkbox"></p>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight:normal;font-size:medium; border: 1px;">
+                                <lightning-button style="color: blue;" class="slds-m-right_small" label={label.hwarrannty}></lightning-button>
+                                <lightning-button style="color: blue;" class="slds-m-left_small" label={label.Hmostpopular}></lightning-button>
+                            </div>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+    
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px; display: flex;">
+                                <p>{label.was}</p>
+                                <div class="slds-m-left_large" style="margin-left: 568px;">
+                                <lightning-icon icon-name="utility:like" alternative-text="Connected" title="Connected" style="float: right;">
+                                </lightning-icon></div>
+                                <div style="margin-left: 10px;">
+                                <lightning-icon icon-name="utility:dislike" alternative-text="Connected" title="Connected" style="float: right;">
+                                </lightning-icon>
+                            </div>
+                            </div>
+                            <div style="height: 1px; width: 100%; background-color: black;"></div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight:normal;font-size:medium; border: 1px;">
+                                <p style="text-align: center;">{label.hchatter}</p>
+                            </div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium" style="font-weight:normal;font-size:medium; border: 1px;">
+                                <p style="text-align: right;">{label.hdont}</p>
+                            </div>
+                            <div class="slds-m-top_medium slds-m-bottom_medium slds-m-left_large" style="margin-left: 320px;">
+                                <button type="button" class="slds-button slds-button_success slds-m-left_small" style="color: black;
+                                width: 207px;
+                                height: 37px;
+                                font-size:medium;">{label.hask}</button> 
+                                <button type="button" class="slds-button slds-button_success" style="color: black;
+                                width: 207px;
+                                height: 37px;
+                                font-size: medium;">{label.hcontacts} </button> 
+                               
+                            </div>
+    
+    
+    
+    
+    
+                        </div>
+                        
+    
+                    </div>
+    
+    
+    
+    
+    
+    
+    
+                    
+                </div>
+            </div>
+            
+        
+            <div style="/*background-color: rgb(214, 183, 183);*/ float: right;">   
+                <div class="slds-m-left_medium">
+                <div class="slds-m-top_small slds-m-right_small" >
+                    <button type="button" class="slds-button slds-button_success" style="color: black;
+                            width: 370px;
+                            height: 45px;
+                            font-size: x-large;">{label.hfollow}</button> 
+                </div>
+    
+                <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.hRelatedArticles}</div>
+                <div style="height: 1px; width: 100%; background-color: black;"></div>
+                <div class="slds-m-top_medium slds-m-bottom_medium"><a  style="width: 100%;  color: black;">{label.hTestRendaring}</a></div>
+                <div style="height: 1px; width: 100%; background-color: black;"></div>
+    
+    
+    
+                <div class="slds-m-top_medium slds-m-bottom_medium"  style="font-weight: bold;font-size:medium; border: 1px;">{label.hTrendingArticles}</div>
+                <div class="slds-m-top_medium slds-m-bottom_medium"><a  style="width: 100%;  color: black;">{label.Hap}</a></div>
+                <div style="height: 1px; width: 100%; background-color: black;"></div>
+                <div class="slds-m-top_medium slds-m-bottom_medium"><a  style="width: 100%;  color: black;">{label.hTestRendaring}</a></div>
+                <div style="height: 1px; width: 100%; background-color: black;"></div>
+                <div class="slds-m-top_medium slds-m-bottom_medium"><a  style="width: 100%; color: black;">{label.hpm}</a></div>
+                <div style="height: 1px; width: 100%; background-color: black;"></div>
+            </div> 
+    
+    
+    
+    
+    
+    
+            </div>
+    
+        </div>
+
+    </template>
+   
+</template>

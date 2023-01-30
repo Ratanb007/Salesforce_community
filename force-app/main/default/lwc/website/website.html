@@ -1,0 +1,93 @@
+<template>
+  <div style="background-color: white; ">
+  <h1  class=" slds-align_absolute-center slds-text-heading_large">ONLY FITNESS FREAKS</h1>
+  <ul class="slds-list_horizontal">
+    <li>
+    <a href="#" class="slds-text-heading_medium">{label.home}</a>
+    </li>
+    &nbsp;&nbsp;
+    <li>
+    <a href="#" class="slds-text-heading_medium">{label.cont}</a>
+    </li>
+    &nbsp;&nbsp;
+    <li>
+    <a href="#" class="slds-text-heading_medium">{label.formm}</a>
+    </li>
+    </ul>
+    
+      
+        <div class="slds-float_right slds-text-heading_medium">
+         <p>{label.staticc}</p>
+         </div>
+      
+     <div class="slds-size_3-of-4 slds-m-around_large">
+      <div class="slds-m-around_large">
+          <lightning-carousel>
+              <lightning-carousel-image
+                 style="max-width:100%; max-height:60%;"
+                  src = {firstImage}>
+              </lightning-carousel-image>
+              <lightning-carousel-image style="max-width:100%; max-height:60%;"
+                  src = {SecondImage}>
+              </lightning-carousel-image>
+              <lightning-carousel-image style="height: 60%;"
+                  src = {thirdImage}>
+              </lightning-carousel-image>
+          </lightning-carousel>
+      </div>
+  </div>
+      <div class=" slds-align_absolute-center slds-text-heading_medium">{label.subtittle}</div>
+  <div class="slds-grid slds-gutters">
+    
+    
+    <div class="slds-col ">
+    <img src={Strength}>Strength
+    </div>
+    <div class="slds-col ">
+      <img src={Zumba} >Zumba
+    </div>
+    <div class="slds-col ">
+      <img src={Dance}>Dance
+    </div>
+    <div class="slds-col ">
+      <img src={Yoga}>Yoga
+    </div>
+    <div class="slds-col ">
+      <img src={Crossfit}>Crossfit
+    </div>
+    <div class="slds-col ">
+      <img src={Fitness}>Fitness
+    </div>
+  </div>
+
+  <div class="slds-form-element">
+    <label class="slds-form-element__label slds-align_absolute-center" for="form-element-01">FORM</label>
+    <div class="slds-form-element__control">
+    <input type="text" id="form-element-01" placeholder="NAME" class="slds-input" name="NAME" />
+    <input type="text" id="form-element-02" placeholder="PHONE NUMBER" class="slds-input" name="NAME" />
+    <input type="text" id="form-element-03" placeholder="QUERRY" class="slds-input" name="NAME" />
+    </div>
+    <div class=" slds-align_absolute-center slds-button-group" role="group">
+      <button class="slds-button slds-button_neutral">{label.SAVE}</button>
+      <button class="slds-button slds-button_neutral">{label.CANCEL}</button>
+     
+      </div>
+    </div>
+
+  <lightning-modal-header label="ONLY FITNESS FREAKS">
+  </lightning-modal-header>
+  <lightning-modal-body>
+      <!-- modal content specified in LightningModal component -->
+  </lightning-modal-body>
+  <lightning-modal-footer>
+    @Copy Rights Are Reserved By Ratan and Company(:-)
+      
+  </lightning-modal-footer>
+  
+
+
+
+
+</div>
+
+</template>

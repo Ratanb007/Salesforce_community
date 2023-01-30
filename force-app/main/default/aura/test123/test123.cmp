@@ -1,0 +1,6 @@
+<aura:component>
+    <div>
+        <h1>hello bhai lwc se aura</h1>
+    </div>
+
+</aura:component>	
